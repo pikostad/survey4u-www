@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    align-content: center;
+}
+h1 {
+    margin: 0;
+}
+#login-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: solid 2px black;
+    padding: 20px;
+    border-radius: 20px;
+}
+#login-form label {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 5px;
+}
